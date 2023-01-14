@@ -9,6 +9,7 @@ void CuteBuzzerSoundsClass::playTone(float noteFrequency, long noteDuration, int
   int  x;
   long delayAmount = (long)(1000000 / noteFrequency);
   long loopTime = (long)((noteDuration * 1000) / (delayAmount * 2));
+  
   pinMode(buzzerPin, OUTPUT);
   for (x = 0; x < loopTime; x++) {
     digitalWrite(buzzerPin, HIGH);
