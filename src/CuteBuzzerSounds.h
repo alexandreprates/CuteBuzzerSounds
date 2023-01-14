@@ -1,6 +1,5 @@
 #ifndef CuteBuzzerSounds_h
 #define CuteBuzzerSounds_h
-#include <avr/power.h>
 #include "Sounds.h"
 
 class CuteBuzzerSoundsClass
